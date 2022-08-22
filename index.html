@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="parentBackgrond">
+      <img
+        class="bckgph"
+        src="./images/nicolas-houdayer-W5m-jv33nDM-unsplash.jpg"
+        alt=""
+      />
+      <div class="logoTransparent">
+        <img id="imag" src="./images/odin-lined.png" alt="" />
+        WIGGLE
+      </div>
+    </div>
+    <div class="fill">
+      <div id="heady">
+        <img
+          id="image"
+          src="./images/menu_FILL0_wght400_GRAD0_opsz48.png"
+          alt="menu"
+        />
+        <img
+          id="image"
+          src="./images/login_FILL0_wght400_GRAD0_opsz48.png"
+          alt="login"
+        />
+
+        <img
+          id="image"
+          src="./images/settings_FILL0_wght400_GRAD0_opsz48.png"
+          alt="settings"
+        />
+        <img
+          id="image"
+          src="./images/person_FILL0_wght400_GRAD0_opsz48.png"
+          alt="profile"
+        />
+      </div>
+      <form action="submit.html" method="get">
+        <div class="inputlabel">
+          <div id="child">
+            <label for="firstname">FIRSTNAME</label>
+            <input type="text" name="firstname" id="firstname" required />
+            <label for="lastname">LASTNAME</label>
+            <input type="text" name="lastname" id="lastname" required />
+            <label for="email">EMAIL</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="user@gmail.com"
+              required
+            />
+          </div>
+          <div id="child">
+            <label for="pnonenumber">PHONE NUMBER</label>
+            <input type="text" name="phonenumber" id="phonenumber" required />
+            <label for="password"> PASSWORD</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="********"
+              required
+            />
+            <label for="confirmpassword">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name="confirmpassword"
+              id="confirmpassword"
+              placeholder="********"
+              required
+            />
+          </div>
+        </div>
+        <div class="lastman">
+          <div>
+            <button class="createaccount">create account</button>
+            <div class="login">
+              already have an account? <a href="account.html"> login</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
