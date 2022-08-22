@@ -1,6 +1,5 @@
-body {
+.diiv {
   display: flex;
-  width: fit-content;
 }
 .parentBackground {
   display: inline;
@@ -19,6 +18,13 @@ body {
   background-color: rgba(15, 15, 15, 0.45);
   height: 100px;
   width: 500px;
+}
+#handshake {
+  margin: 15px 0px 20px 610px;
+}
+h1 {
+  margin: 0px 0px 0px 460px;
+  font-size: 50px;
 }
 #heady {
   display: block;
@@ -85,6 +91,11 @@ fill {
 button:hover {
   background-color: aliceblue;
 }
+#submmit {
+  margin: 200px 0px 0px 0px;
+  background-color: rgb(209, 252, 216);
+}
+
 button {
   border-radius: 8px;
   color: black;
@@ -96,6 +107,13 @@ button {
   display: flex;
   margin: 15px 0px 20px 50px;
 }
+#home {
+  border-radius: 8px;
+  color: black;
+  background-color: aliceblue;
+  width: 60px;
+  margin: 15px 0px 20px 600px;
+}
 .login {
   margin: 0px 0px 0px 50px;
 }
@@ -103,4 +121,12 @@ button {
 label {
   display: block;
   font-size: 12px;
+}
+a:link {
+  color: rgb(0, 128, 43);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 128, 43);
+  text-decoration: none;
 }
